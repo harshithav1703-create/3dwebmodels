@@ -6,15 +6,14 @@
   </head>
   <body>
     <a-scene 
-      mindar-image="imageTargetSrc: muilt Qr.mind;" 
+      mindar-image="imageTargetSrc: multi_qr.mind;" 
       color-space="sRGB" 
       renderer="colorManagement: true, physicallyCorrectLights" 
       vr-mode-ui="enabled: false" 
       device-orientation-permission-ui="enabled: false">
       
       <a-assets>
-        <a-asset-item id="avataModel" src="wood honey 3d.glb"></a-asset-item>
-        <img card ="wood honey 3d.glb">
+        <a-asset-item id="avatarModel" src="wood_honey_3d.glb"></a-asset-item>
       </a-assets>
 
       <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
@@ -28,7 +27,8 @@
           animation="property: position; to: 0 0.1 0.1; dur: 1000; easing: easeInOutQuad; loop: true; dir: alternate">
         </a-gltf-model>
       </a-entity>
-       <a-entity mindar-image-target="targetIndex: 1">
+
+      <a-entity mindar-image-target="targetIndex: 1">
         </a-entity>
 
     </a-scene>
